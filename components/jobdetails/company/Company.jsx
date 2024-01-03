@@ -24,8 +24,10 @@ const Company = ({ companyLogo, jobTitle, companyName, location }) => {
       </View>
 
       <View style={styles.companyInfoBox}>
-        <Text style={styles.companyName}>{companyName} / </Text>
-        <View style={styles.locationBox}>
+        <Text style={styles.companyName}>{companyName}</Text>
+      </View>
+
+      <View style={styles.locationBox}>
           <Image
             source={icons.location}
             resizeMode='contain'
@@ -33,7 +35,6 @@ const Company = ({ companyLogo, jobTitle, companyName, location }) => {
           />
           <Text style={styles.locationName}>{location}</Text>
         </View>
-      </View>
     </View>
   );
 };

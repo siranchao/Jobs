@@ -5,7 +5,7 @@ import { COLORS, FONT, SIZES } from "../../../constants";
 const styles = StyleSheet.create({
   container: {
     position: "absolute",
-    bottom: 0,
+    bottom: 5,
     left: 0,
     right: 0,
     padding: SIZES.small,
@@ -15,8 +15,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   likeBtn: {
-    width: 55,
-    height: 55,
+    width: 50,
+    height: 50,
     borderWidth: 1,
     borderColor: "#F37453",
     borderRadius: SIZES.medium,
